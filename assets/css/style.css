@@ -1,5 +1,57 @@
+head{
+    width: 1197px;
+    height: 353px;
+    border-radius: 1197px;
+    background: #DEC4D7;
+}
+.foto-container {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  
+}
+.decoracao-topo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 353px;
+}
+
 body{
-    background-color: rgb(236, 220, 249);
+    background: linear-gradient(174deg, #D384CE -18.62%, #7F3D7A 60%, #5D2159 82.07%);
+    background-attachment: fixed; /* serve para manter o background fixo mesmo com o scroll */
+}
+
+.pinyon-script-regular {
+  font-family: "Pinyon Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.press-start-2p-regular {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.p-fonte{
+    font-family: "Pinyon Script", cursive;
+    color: rgb(57, 9, 69);
+    font-size: 90px;
+}
+
+.about-me{
+
+    margin: 40px;
+    color: linear-gradient(174deg, #D384CE -18.62%, #7F3D7A 60%, #5D2159 82.07%);
+    
+    font-family: "Press Start 2P";
+    background-color: rgb(246, 219, 247);
+    text-align: center;
+    gap: 10px;
+    color: rgb(57, 9, 69);
+    border-radius: 10px;
 }
 
 .menu{
