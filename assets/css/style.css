@@ -86,6 +86,19 @@ p{
     text-align: left;
 }
 
+.description{
+    font-size: 20px;
+    padding: 30px;
+    font-family: "Press Start 2P";
+    color: rgb(57, 9, 69);
+    font-size: 20px;
+    padding: 90px;
+    background: -webkit-linear-gradient( #D384CE 62%, #7F3D7A 38%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: left;
+}
+
 
 nav{
     display: flex;
