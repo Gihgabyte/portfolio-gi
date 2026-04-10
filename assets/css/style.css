@@ -168,12 +168,14 @@ nav {
     margin-top: 40px;
 
     font-family: "Press Start 2P";
-    font-size: 14px;
+    font-size: 17px;
 
     background: linear-gradient(180deg, #f3c6f1, #7F3D7A);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 
@@ -265,4 +267,25 @@ nav {
     color: #751370;
     -webkit-text-stroke: 0.1px rgb(57, 9, 69);
     text-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+}
+
+.icons {
+    height: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px; /*praq*/
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.decoracao-topo2 {
+    position: absolute;
+    top: -160px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    width: 40%;
+    max-width: 800px;
+    z-index: 0;
 }
