@@ -82,85 +82,69 @@ h1 {
   
 }*/
 
-h1 {
+.name {
     font-family: "Press Start 2P";
-    font-size: 22px;
+    font-size: 20px;
+    
 
     text-align: center;
 
-    background: linear-gradient(180deg, #f3c6f1, #7F3D7A);
+    /*background: linear-gradient(170deg, #f3c6f1, #7F3D7A);*/
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
+    color: #f5bcf2;
+    
 
-    -webkit-text-stroke: 0.5px #390945;
+    -webkit-text-stroke: 0.1px rgb(57, 9, 69);
     text-shadow: 0px 2px 4px rgba(0,0,0,0.2);
 
     margin: 0;
     padding-top: 50px;
-}
-
-h2 {
-    font-size: 30px;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     
-    margin: 4px;
-    font-family: "Press Start 2P";
-
-    text-align: left;
-    gap: 10px;
-    color: rgb(57, 9, 69);
-    padding: 30px;
 }
 
 .p-fonte{
     font-family: "Pinyon Script", cursive;
-    color: rgb(57, 9, 69);
-    font-size: 80px;
+    color: #D384CE;
+    font-size: 140px;
     background: linear-gradient(180deg, #D384CE, #7F3D7A);
     background-clip: text;
     -webkit-background-clip: text;
-    color: transparent;
-    -webkit-text-stroke: 0.001px #390945b5;
+    /*color: transparent;*/
+    -webkit-text-stroke: 00.01px rgb(57, 9, 69);
     text-shadow: 0px 2px 4px rgba(0,0,0,0.2);
 }
 
-p{
-    font-size: 10px;
-    padding: 30px;
-    font-family: "Press Start 2P";
-    color: rgb(57, 9, 69);
-    background: -webkit-linear-gradient( #D384CE 62%, #7F3D7A 38%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-align: left;
-    display: flex;
-    
-}
-
-/*
-.description{
+h2 {
     font-family: "Press Start 2P";
     font-size: 20px;
     
-    padding: 30px;
-    
-    color: rgb(57, 9, 69);
-    
-    padding: 90px;
-    background: -webkit-linear-gradient( #D384CE 62%, #7F3D7A 38%);
+
+    text-align: center;
+
+    /*background: linear-gradient(170deg, #f3c6f1, #7F3D7A);*/
+    background-clip: text;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-align: left;
-}*/
+    color: transparent;
+    color: #f5bcf2;
+    
+
+    -webkit-text-stroke: 0.1px rgb(57, 9, 69);
+    text-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
 
 .description {
     font-family: "Press Start 2P";
     font-size: 14px;
 
     max-width: 500px;
-    line-height: 1.6;
+    line-height: 1.8;
 
     text-align: left;
 
@@ -170,7 +154,9 @@ p{
     -webkit-background-clip: text;
     color: transparent;
 
-    padding: 0;
+    padding: 3;
+    text-align: left;
+    display: flex;
 }
 
 
@@ -207,18 +193,13 @@ nav {
     color: #f3c6f1;
 }
 
-/*
-.decoracao-topo{
-    position: absolute;
-
-    justify-content: center;
-    align-items: center;
-    top: -59px;
-    width: 100%;
-    height: 200px;
-    padding-bottom: 300px;
+.linkedin, .github, .email {
+    width: 40px;
+    height: 40px;
+    
+    display: flex;
+    align-items: left;
 }
-*/
 
 .decoracao-topo {
     position: absolute;
@@ -247,4 +228,41 @@ nav {
 .decoracao-rodape {
     margin-top: 40px;
     width: 80px;
+}
+
+.page{
+    font-family: "Press Start 2P";
+    font-size: 30px;
+    text-decoration: none;
+
+    text-align: center;
+
+    /*background: linear-gradient(170deg, #f3c6f1, #7F3D7A);*/
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    color: #f5bcf2;
+    
+
+    -webkit-text-stroke: 0.1px rgb(57, 9, 69);
+    text-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+
+    margin: 0;
+    padding-top: 50px;
+    
+}
+.page {
+    transition: transform 0.2s ease;
+    text-decoration: none;
+    color: #f3c6f1;
+}
+.page:hover {
+    color: #f3c6f1;
+    transform: scale(1.1);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    color: #751370;
+    -webkit-text-stroke: 0.1px rgb(57, 9, 69);
+    text-shadow: 0px 2px 4px rgba(0,0,0,0.2);
 }
