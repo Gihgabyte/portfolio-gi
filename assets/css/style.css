@@ -11,6 +11,7 @@
   font-style: normal;
 }
 
+/*pagina inicial*/
 .foto-container {
     width: 280px;
     height: 280px;
@@ -218,13 +219,33 @@ nav {
     
 }*/
 
+/*aba contatos/*
+/* Estilos para os links de navegação */
+.titulo-contato{
+    font-family: "Press Start 2P";
+    font-size: 28px;
+    text-align: center;
 
-.page {
+    /*background: linear-gradient(170deg, #f3c6f1, #7F3D7A);*/
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    color: #f5bcf2;
+    
+
+    -webkit-text-stroke: 0.1px rgb(57, 9, 69);
+    text-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.page-link {
     transition: transform 0.2s ease;
     text-decoration: none;
     color: #f3c6f1;
 }
-.page:hover {
+.page-link:hover {
     color: #f3c6f1;
     transform: scale(1.1);
     background-clip: text;
@@ -235,18 +256,47 @@ nav {
     text-shadow: 0px 2px 4px rgba(0,0,0,0.2);
 }
 
+/* Estilos para a seção de ícones */
+.secao-contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+}
+
 .icons {
     height: 20px;
     display: flex;
-    gap: 20px;
+    flex-direction: column;
+    gap: 30px;
     justify-content: center;
     flex-direction: column;
     margin-top: 20px; /*praq*/
-    padding-top: 20px;
-    padding-bottom: 50px;
-
+    padding-top: 150px;
+    padding-bottom: 150px;
 }
 
+.icons a {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    text-decoration: none;
+    color: #f3c6f1;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+.icons a:hover {
+    color: #f3c6f1;
+    transform: scale(1.1);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    color: #751370;
+    -webkit-text-stroke: 0.1px rgb(57, 9, 69);
+    text-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+}
+
+/*editar decoração topo*/
 .decoracao-topo2 {
     position: absolute;
     align-items: center;
@@ -259,3 +309,5 @@ nav {
     max-width: 800px;
     z-index: 0;
 }
+
+
