@@ -196,28 +196,6 @@ nav {
     width: 80px;
 }
 
-/*
-.page{
-    font-family: "Press Start 2P";
-    font-size: 30px;
-    text-decoration: none;
-
-    text-align: center;
-
-    /*background: linear-gradient(170deg, #f3c6f1, #7F3D7A);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    color: #f5bcf2;
-    
-
-    -webkit-text-stroke: 0.1px rgb(57, 9, 69);
-    text-shadow: 0px 2px 4px rgba(0,0,0,0.2);
-
-    margin: 0;
-    padding-top: 50px;
-    
-}*/
 
 /*aba contatos/*
 /* Estilos para os links de navegação */
@@ -236,8 +214,8 @@ nav {
     -webkit-text-stroke: 0.1px rgb(57, 9, 69);
     text-shadow: 0px 2px 4px rgba(0,0,0,0.2);
 
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .page-link {
@@ -277,6 +255,8 @@ nav {
 }
 
 .icons a {
+    font-family: "Press Start 2P";
+    font-size: 12px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -299,9 +279,8 @@ nav {
 /*editar decoração topo*/
 .decoracao-topo2 {
     position: absolute;
-    align-items: center;
     height: 100px;
-    
+    top: 0;
     left: 50%;
     transform: translateX(-50%);
     
