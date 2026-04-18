@@ -64,7 +64,7 @@ body{
 .titulo-imagem {
   display: block;
   margin: 0 auto;
-  max-width: 80%;
+  max-width: 75%;
 }
 
 /* Estilos para a imagem do título */
@@ -138,12 +138,12 @@ h2 {
 nav {
     display: flex;
     justify-content: center;
-    gap: 80px;
+    gap: 90px;
 
     margin-top: 40px;
 
     font-family: "Press Start 2P";
-    font-size: 17px;
+    font-size: 19px;
 
     background: linear-gradient(180deg, #f3c6f1, #7F3D7A);
     background-clip: text;
@@ -256,13 +256,14 @@ nav {
 
 .icons a {
     font-family: "Press Start 2P";
-    font-size: 12px;
+    font-size: 16px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
     gap: 10px;
     text-decoration: none;
     color: #f3c6f1;
+    text-shadow: 0px 2px 4px rgb(57,9,69,0.7);
     transition: transform 0.2s ease, color 0.2s ease;
 }
 .icons a:hover {
@@ -271,9 +272,9 @@ nav {
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
-    color: #751370;
+    color: #540b50;
     -webkit-text-stroke: 0.1px rgb(57, 9, 69);
-    text-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    text-shadow: 0px 2px 4px rgb(243, 198, 241, 0.5);
 }
 
 /*editar decoração topo*/
