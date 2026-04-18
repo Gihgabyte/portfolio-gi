@@ -31,7 +31,7 @@ Se você quiser baixar e testar este projeto na sua máquina, siga os passos:
 
 1. Clone este repositório:
    ```bash
-   git clone [https://github.com/Gihgabyte/NOME_DO_SEU_REPOSITORIO.git](https://github.com/Gihgabyte/NOME_DO_SEU_REPOSITORIO.git)
+   git clone [https://github.com/Gihgabyte/NOME_DO_SEU_REPOSITORIO.git](https://github.com/Gihgabyte/portifolio-gi.git)
 
 2. Abra a pasta do projeto no seu editor de código (como o VS Code).
 
