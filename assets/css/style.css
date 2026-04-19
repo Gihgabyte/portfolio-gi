@@ -129,9 +129,8 @@ h2 {
     -webkit-background-clip: text;
     color: transparent;
 
-    padding: 3;
+    padding: 3px;
     text-align: left;
-    display: flex;
 }
 
 
@@ -197,7 +196,7 @@ nav {
 }
 
 
-/*aba contatos/*
+/*aba contatos*/
 /* Estilos para os links de navegação */
 .titulo-contato{
     font-family: "Press Start 2P";
@@ -248,7 +247,6 @@ nav {
     flex-direction: column;
     gap: 30px;
     justify-content: center;
-    flex-direction: column;
     margin-top: 20px; /*praq*/
     padding-top: 150px;
     padding-bottom: 150px;
