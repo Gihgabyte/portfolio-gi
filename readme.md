@@ -12,7 +12,6 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 * **HTML5:** Estruturação semântica e acessível.
 * **CSS3:** Estilização, Flexbox para layout e importação de web fonts (Google Fonts).
-* **JavaScript:** (Se você tiver interações, mencione aqui, se não, pode apagar).
 * **Figma:** Para a prototipação e design inicial.
 
 ---
@@ -31,7 +30,7 @@ Se você quiser baixar e testar este projeto na sua máquina, siga os passos:
 
 1. Clone este repositório:
    ```bash
-   git clone [https://github.com/Gihgabyte/NOME_DO_SEU_REPOSITORIO.git](https://github.com/Gihgabyte/portifolio-gi.git)
+   git clone [https://github.com/Gihgabyte/portifolio-gi.git](https://github.com/Gihgabyte/portifolio-gi.git)
 
 2. Abra a pasta do projeto no seu editor de código (como o VS Code).
 
